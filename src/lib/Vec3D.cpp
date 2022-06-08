@@ -41,9 +41,9 @@ Vec3D Vec3D::operator+(const Vec3D &VectorToOperate)
 
 Vec3D& Vec3D::operator+=(const Vec3D &VectorToOperate)
 {
-    x + VectorToOperate.x;
-    y + VectorToOperate.y;
-    z + VectorToOperate.z;
+    x += VectorToOperate.x;
+    y += VectorToOperate.y;
+    z += VectorToOperate.z;
     return *this;
 } 
 
@@ -57,9 +57,9 @@ Vec3D Vec3D::operator-(const Vec3D &VectorToOperate)
 
 Vec3D& Vec3D::operator-=(const Vec3D &VectorToOperate)
 {
-    x - VectorToOperate.x;
-    y - VectorToOperate.y;
-    z - VectorToOperate.z;
+    x -= VectorToOperate.x;
+    y -= VectorToOperate.y;
+    z -= VectorToOperate.z;
     return *this;
 }
 
@@ -72,9 +72,9 @@ Vec3D Vec3D::operator*(float Value)
 
 Vec3D& Vec3D::operator*=(float Value)
 {
-    x * Value;
-    y * Value;
-    z * Value;
+    x *= Value;
+    y *= Value;
+    z *= Value;
     return *this;
 } 
 
@@ -87,9 +87,9 @@ Vec3D Vec3D::operator/(float Value)
 
 Vec3D& Vec3D::operator/=(float Value)
 {
-    x / Value;
-    y / Value;
-    z / Value;
+    x /= Value;
+    y /= Value;
+    z /= Value;
     return *this;
 }  //assigning new result to the vector
 
