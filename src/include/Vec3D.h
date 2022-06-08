@@ -1,8 +1,10 @@
 #pragma once
+#include <string>
 #include "Point3D.h"
 
 class Vec3D : public Point3D
 {   
+public:
     Vec3D();
     Vec3D(float Value);
     Vec3D(float X, float Y, float Z);
@@ -22,5 +24,6 @@ class Vec3D : public Point3D
     Vec3D Normalize();   //normalized vector
     float Square(); //gives square of the vector
     float DistanceTo(const Vec3D &VectorToOperate); 
+    std::string ToString();
 };
 

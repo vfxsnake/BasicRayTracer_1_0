@@ -11,7 +11,7 @@
 				"/nologo",
 				"/Fe:",
 				"${fileDirname}\\${fileBasenameNoExtension}.exe",
-				"${file}", "${fileDirname}/lib/Point3D.cpp"
+				"${file}", "${fileDirname}/lib/Point3D.cpp", "${fileDirname}/lib/Vec3D.cpp"
 			],
 			"options": {
 				"cwd": "${workspaceFolder}"

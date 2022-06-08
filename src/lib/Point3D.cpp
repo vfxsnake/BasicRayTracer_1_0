@@ -1,7 +1,5 @@
 #include "../include/Point3D.h"
 
-
-
 Point3D::Point3D()
 {
     x = 0;
@@ -36,3 +34,4 @@ Point3D::Point3D(const float ComponentArray[3])
     y = ComponentArray[1];
     z = ComponentArray[2];
 }
+
